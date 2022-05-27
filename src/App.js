@@ -1,6 +1,15 @@
 import './App.css'
 import './bootstrap.css'
 
+const firebaseConfig = {
+  apiKey: "AIzaSyCiNEYcwoVNz61TvwzPDsytPr9SfLrskVA",
+  authDomain: "portfolio-12566.firebaseapp.com",
+  projectId: "portfolio-12566",
+  storageBucket: "portfolio-12566.appspot.com",
+  messagingSenderId: "631106730850",
+  appId: "1:631106730850:web:417d3824d153dd6af14a3b",
+  measurementId: "G-7H5DP5LT0J"
+};
 
 function App() {
   const intro = "HI, I'm Shivam Singh. I'm a Full Stack Web Developer. I'm currently working on my portfolio."
