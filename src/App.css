@@ -13,9 +13,6 @@ body {
   font-family: 'Poppins', sans-serif;
   color:rgb(57, 57, 57);
 }
- 
-
-
 
 h1 {
   font-size: 70px;
@@ -441,4 +438,23 @@ a:hover{
   background-color: #fff !important;
   color: #1c1f23 !important;
   border-color: #1a1e21;
+}
+
+.glass-m{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#typewr{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
