@@ -4,7 +4,7 @@ import Dropdown from './Dropdown';
 const Header = ({ handleChange }) => {
   return (
     <header>
-      <Dropdown handleChange={handleChange} />
+      <h1>Shivam</h1>
     </header>
   );
 };
